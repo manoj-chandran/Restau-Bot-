@@ -1,0 +1,33 @@
+[
+    "HMR":{
+        "chicken-briyani":{
+            "img":"",
+            "price":"230"
+        },
+        "chappathi":{
+            "img":"https://i.ibb.co/B3dmRm7/Whats-App-Image-2023-03-31-at-11-07-28-AM.jpg",
+            "price":"30"
+        },
+        "bun-parota":{
+            "img":"https://i.ibb.co/gvsDf4P/Whats-App-Image-2023-03-31-at-11-07-30-AM.jpg",
+            "price":"45"
+        },
+        "pay":""
+    },
+    "AI-Chittinadu-Hotel":{
+        "Egg-Biriyani":{
+            "img":"https://i.ibb.co/9bJ1qj5/Whats-App-Image-2023-03-31-at-11-07-30-AM-1.jpg",
+            "price":""
+        },
+        "Chicken-Fried-Rice":{
+            "img":"",
+            "price":"",
+        },
+        "Gobi-Noodels":{
+            "img":"https://i.ibb.co/0Bn91XC/Whats-App-Image-2023-03-31-at-11-07-31-AM.jpg",
+            "price":"",
+        },
+        "pay":""
+    }
+
+]
