@@ -4,9 +4,11 @@ import axios, { Axios } from "axios";
      .then(res =>{
         console.log(res.data)
         for (var i =1; i<4; i++){
-            if(res.data[i].FoodName=='Parota'){
-                console.log(res.data[i].Price)
-            }
+            // if(res.data[i].FoodName=='Parota'){
+            //     console.log(res.data[i].Price)
+            // }
+
+            console.log(res.data[i].FoodName)
         }  
      })
 

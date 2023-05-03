@@ -5,6 +5,7 @@ const helpMsg =`
 /start -- To start the bot
 /fortune -- to receive some fortunes 
 /help  -- Command Reference 
+/fooditem -- To list the number of food items.
 /restaurants -- To list the number of restaurants.
 /hmr <foodname> -- To show the hmr details 
 /chittinadu <foodname> -To Show the chittinadu food datails
@@ -20,7 +21,23 @@ Chittinadu:
     1. egg-biriyani
     2. chicken-fried-rice
     3. gobi-noodles
+foodcourt:
+    1.Parota
+    2.Chappathi
+    3.Gobi-noodles
+     
 `
+// ${axios.get('https://script.googleusercontent.com/macros/echo?user_content_key=dujVW20C-t0KgjP7cPt0QE-CQyE9MC4YAKgoaxBuWCk8pVPTqtcLKIzuiYL5At696S1KpWGrhTSbIPFCa8pZMXwm84LAWjaum5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnOAEI1TipRmirKhH_2OaKu0qDzH6QUal99AS0e7OitSp6fN09pjOAx9nznnOq1Yh2ah7gXNb_XGMkl0QSpIj_b7x2nNMOLeTPA&lib=MsOKQEK32Nn_yJD5zTH4WG5GvrR6Rl4Ky')
+//      .then(res =>{
+//         console.log(res.data)
+//         for (var i =1; i<4; i++){
+//             // if(res.data[i].FoodName=='Parota'){
+//             //     console.log(res.data[i].Price)
+//             // }
+
+//             console.log(res.data[i].FoodName)
+//         }  
+//      })}
 
 
 import Axios from "axios"; 
@@ -32,7 +49,7 @@ const bot = new Telegraf('5631190247:AAHLXjn1igfli9wgwSoJIRN58oHrR8-aXfY');
 
 
 bot.start((ctx)=>{
-    ctx.reply("Hello I am a Echo Bot from fresh Spar ")
+    ctx.reply("Hello I am a Echo Bot from White Coats . ")
     ctx.reply(helpMsg);
 })
 
@@ -196,7 +213,7 @@ bot.command("foodcourt", (ctx)=>{
                 ctx.replyWithPhoto(`https://i.ibb.co/gvsDf4P/${food}.jpg`)
                 // res.data[i].Image
                 ctx.reply(`price: ${res.data[i].Price} \n`)
-                ctx.reply("Pay: https://rzp.io/l/l0VZu4mz3")
+                ctx.reply("Pay: https://rzp.io/l/3b4fKP92Xc")
             }
         } 
      })
